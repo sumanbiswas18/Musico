@@ -1,5 +1,7 @@
 *{margin: 0px; padding: 0px; box-sizing: border-box;}
-
+html{
+	scroll-behavior: smooth;
+}
 body{
 	font-family:"myfont"; text-align:justify; 
 	}
@@ -91,7 +93,7 @@ nav ul li:hover active{
 }
 .nav1 ul li a{
 		padding: 0px 23px; font-size:20px; line-height:72px;
-		text-decoration: none; color:#333333; coursor:pointer;
+		text-decoration: none; color:#333333; cursor:pointer;
 }
 .nav1 ul li a:hover{
 		background-color:#649BFB;
